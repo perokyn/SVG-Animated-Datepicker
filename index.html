@@ -1,0 +1,48 @@
+<html>
+
+<head>
+
+  <title>SVG Animated Date-picker </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css' rel='stylesheet'>
+  <link href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
+  <link href="/resources/demos/style.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<body>
+  <p id='datePicker'>
+    <svg id='svg' width="50" height="50">
+      <rect id='calbody' x="5" y="13" width="40" height="30" fill="#1E90FF" />
+      <circle cx="15" cy="13" r="3" fill="black" />
+      <circle cx="35" cy="13" r="3" fill="black" />
+
+      <rect x="25" y="20" width="4" height="4" fill="white" />
+      <rect x="31" y="20" width="4" height="4" fill="white" />
+      <rect x="37" y="20" width="4" height="4" fill="white" />
+
+      <rect x="13" y="26" width="4" height="4" fill="white" />
+      <rect x="19" y="26" width="4" height="4" fill="white" />
+      <rect x="25" y="26" width="4" height="4" fill="white" />
+      <rect x="31" y="26" width="4" height="4" fill="white" />
+      <rect x="37" y="26" width="4" height="4" fill="white" />
+
+      <rect x="13" y="32" width="4" height="4" fill="white" />
+      <rect x="19" y="32" width="4" height="4" fill="white" />
+      <rect x="25" y="32" width="4" height="4" fill="white" />
+      <rect x="31" y="32" width="4" height="4" fill="white" />
+      <rect x="37" y="32" width="4" height="4" fill="white" />
+
+      <circle cx="21" cy="34" r="3" stroke='red' fill="transparent" />
+    </svg>
+
+  </p>
+  <p><input type='text' id='date' disabled="disabled"></p>
+</body>
+
+</html>
