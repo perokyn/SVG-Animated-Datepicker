@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  align-content: center;
+}
+
+svg {
+  margin: 0 auto;
+  margin-top: 8px;
+}
+#datePicker rect:not([class]):not([id]):hover {
+  fill: red;
+  circle {
+    stroke: green;
+  }
+}
+
+#datePicker :hover {
+  background: Lavender;
+  border-radius: 10px;
+  circle {
+    stroke: transparent;
+  }
+}
+
+input {
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+}
